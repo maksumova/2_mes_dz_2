@@ -57,7 +57,7 @@ class Product{
     }
     func showInfo() {
         print ("name: \(name). price: \(price). quatity: \(quantity)")
-        
+
     }
 }
 
@@ -85,7 +85,7 @@ class Spares: Market{
     override func showInfo() {
         print ("market name:\(name). Area: \(area). location: \(location). workTime\(workTime).  weekend: \(weekend).  delivery: \(delivery)")
     }
-    
+
 }
 
 
